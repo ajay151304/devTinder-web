@@ -32,7 +32,7 @@
 
 - You should not be access other routes without login
 - If token is not preset, redirects to login page
-- Logout
+- Logout feature
 - Profile Page
 
 - NavBar
