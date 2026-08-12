@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
-import NavBar from "./src/NavBar";
-import Footer from "./src/Footer";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 const Body = () => {
   return (
     <div>

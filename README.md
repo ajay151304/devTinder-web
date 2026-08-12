@@ -16,8 +16,19 @@
 - Create a Footer Component
 
 - Create a Login Page
+- Install axios
+- CORS - install cors on backend => add middleware to with configurations: {origin:"FrontEndDomain" , credentials: ture}
+- Whenever making API call so pass ( axios call, {withCredentails:true} )
+  Body
 
-Body
+- Instal react-redux + @reduxjs/tookilt - https://redux-toolkit.js.org/tutorials/quick-start
+
+- Create a configureStore => Provider => createSlice => add reducer to store
+
+- Add Redux tool in chrome
+- Login and see if your data is coming properly in the store
+- NavBar should update as soon as user logs in
+- Refactor our code to add constants file + create a components folder
 
 - NavBar
 - Route=/ =>Feed
