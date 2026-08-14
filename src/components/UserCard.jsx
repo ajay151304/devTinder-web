@@ -1,6 +1,6 @@
 function UserCard({ user }) {
-  console.log(user);
-  const { age, firstName, lastName, about, photoUrl, gender } = user;
+  const { firstName, lastName, photoUrl, age, gender, about } = user;
+
   return (
     <div className="card bg-base-300 w-96 shadow-sm">
       <figure>
@@ -11,8 +11,8 @@ function UserCard({ user }) {
         {age && gender && <p>{age + ", " + gender}</p>}
         <p>{about}</p>
         <div className="card-actions justify-center my-4">
-          <button className="btn btn-secondary">Ignore</button>
-          <button className="btn btn-primary">Interested</button>
+          <button className="btn btn-primary">Ignore</button>
+          <button className="btn btn-secondary">Interested</button>
         </div>
       </div>
     </div>

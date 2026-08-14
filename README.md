@@ -33,7 +33,11 @@
 - You should not be access other routes without login
 - If token is not preset, redirects to login page
 - Logout feature
-- Profile Page
+- Get the feed and add the feed in the store
+- build the user card on feed
+- Edit profile feture
+- Show Toast message on profile
+- See all my connections at one place
 
 - NavBar
 - Route=/ =>Feed
