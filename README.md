@@ -37,7 +37,8 @@
 - build the user card on feed
 - Edit profile feture
 - Show Toast message on profile
-- See all my connections at one place
+- New Page - See all my connections at one place
+- New Page - See all my connection requests
 
 - NavBar
 - Route=/ =>Feed
