@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 import { useNavigate } from "react-router";
 import { BASE_URL } from "../utils/constant";
+import { Link } from "react-router";
 
 function Login() {
   const [emailId, setEmailId] = useState("ajay@gmail.com");
@@ -64,6 +65,11 @@ function Login() {
             <button className="btn btn-primary" onClick={handleLogin}>
               Login
             </button>
+          </div>
+          <div>
+            <Link to="/signup" className="underline decoration-blue-500">
+              Signup Now!!
+            </Link>
           </div>
         </div>
       </div>

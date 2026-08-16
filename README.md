@@ -39,6 +39,13 @@
 - Show Toast message on profile
 - New Page - See all my connections at one place
 - New Page - See all my connection requests
+- Feature - Accept /Reject connection Request
+
+Remaining:
+
+- Send/ignore the user card from feed
+- Signup New User
+- E2ETesting
 
 - NavBar
 - Route=/ =>Feed
