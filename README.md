@@ -41,10 +41,11 @@
 - New Page - See all my connection requests
 - Feature - Accept /Reject connection Request
 - Send/ignore the user card from feed
-
+- Signup New User
+- 
 Remaining:
 
-- Signup New User
+
 - E2ETesting
 
 - NavBar
