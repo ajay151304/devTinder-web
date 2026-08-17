@@ -12,6 +12,7 @@ function Feed() {
   const getFeed = async () => {
     try {
       if (feed) return;
+
       const res = await axios.get(BASE_URL + "/feed", {
         withCredentials: true,
       });
@@ -25,6 +26,13 @@ function Feed() {
     getFeed();
   }, []); // only one time
 
+  if (!feed) return;
+  if (feed.length <= 0)
+    return (
+      <div className="flex justify-center my-10">
+        <h1>No Users Found!!</h1>
+      </div>
+    );
   return (
     feed && (
       <div className="flex justify-center my-10">
