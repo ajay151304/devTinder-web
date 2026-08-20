@@ -41,6 +41,7 @@
 - New Page - See all my connection requests
 - Feature - Accept /Reject connection Request
 - Send/ignore the user card from feed
+<<<<<<< HEAD
 
 # Adding a custom Domain Name
 
@@ -69,9 +70,13 @@
 - Write code for sending email address
 - Make the email dynamic by passing more params to the run function
 
+=======
+- Signup New User
+- 
+>>>>>>> d3802a464467817a42d6ecd6bf52b41c322473b5
 Remaining:
 
-- Signup New User
+
 - E2ETesting
 
 - NavBar
