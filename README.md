@@ -42,6 +42,33 @@
 - Feature - Accept /Reject connection Request
 - Send/ignore the user card from feed
 
+# Adding a custom Domain Name
+
+-purchase domain name fro godaddy
+
+- signup on cloudflare & add a new domain name
+- change the nameservers on godaddy and point it to cloudflare
+- wait for sometime till your nameservers are updated -15 mins
+- DNS record: A devtinder.in 13.62.55.3
+- Enable SSL for website
+
+# Sending Emails via SES
+
+- Create a IAM user
+- Give Access to AmazonSESFullAccess
+- Amazon SES: Create an identity
+- Verify your domain name
+- Verify an email address identity
+- Install AWS SDK -v3 -Code Example: https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
+
+- Setup SesClient
+- Access Credentials should be created in AWS IAM under security credentials
+  Tab
+- Add the credentials to the env file
+- Write code for SESClient
+- Write code for sending email address
+- Make the email dynamic by passing more params to the run function
+
 Remaining:
 
 - Signup New User
