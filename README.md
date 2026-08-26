@@ -41,7 +41,7 @@
 - New Page - See all my connection requests
 - Feature - Accept /Reject connection Request
 - Send/ignore the user card from feed
-<<<<<<< HEAD
+  <<<<<<< HEAD
 
 # Adding a custom Domain Name
 
@@ -70,12 +70,42 @@
 - Write code for sending email address
 - Make the email dynamic by passing more params to the run function
 
-=======
-- Signup New User
-- 
->>>>>>> d3802a464467817a42d6ecd6bf52b41c322473b5
-Remaining:
+# Schedulin cron jobs in NodeJs
 
+- installing node-cron
+- Learning about cron expression syntax -crontab.guru
+- Schedule a job
+- date-fns
+- Find all the unique emailIds who have got connection request in previos day
+- Send Email
+- Explore queue mechanism to send bulk emails
+- Amazon SES Bulk email
+- Make sendEmail function dynamic
+- bee-queue & bull npm packages
+
+# Razorpay Payment Gateway Integration
+
+- Signup on the razorpay
+- Created a UPI for premium page
+- Creating an API for create order in backend
+- Added my key and secret in .env file
+- Initialize razorpay in Utils
+- Creating order on razorpay
+- created a paymentSchema & model
+- Saved the orders in the payment collection
+- make the API dynamic
+- Setup Razorpay webhook on your live API
+- Ref - https://github.com/razorpay/razorpay-node/blob/master/document
+- Ref - https://razorpay.com/docs/payments/server-integration/nodejs/integration-steps/
+  -Ref - https://razorpay.com/docs/webhooks/validate-test/
+
+- Ref - https://razorpay.com/dpcs/webhooks/payloads/payments
+
+=======
+
+- Signup New User
+- > > > > > > > d3802a464467817a42d6ecd6bf52b41c322473b5
+  > > > > > > > Remaining:
 
 - E2ETesting
 
