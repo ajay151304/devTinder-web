@@ -121,9 +121,7 @@
   - HoMEWORK: Limit messages when fetching from DB
   - Project Ideas: Tic Tac Toe game
   - Project Idea 2: Chess Game
-  - Project Idea 3:
-  -
-
+  - 
 - Signup New User
 
 - E2ETesting
