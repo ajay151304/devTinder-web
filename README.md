@@ -101,11 +101,30 @@
 
 - Ref - https://razorpay.com/dpcs/webhooks/payloads/payments
 
-=======
+# Real Time Chat Using Web Sockets(socket.io)
+
+- Build the UI for a chat window on /chat/:targetUserId
+- Setup socket.io in backend
+- npm i socket.io
+- Setup frontend socket.io-client
+- Initialize the chat
+- CreateSocketConnection
+- listen to event
+-
+- HOMEWORK: Improve the UI
+- HOMEWORK: Fix Security Bug - can i send message a message
+  who are not my friend - auth in web sockets
+- HOMEWORK: Fix Bug: if I'm ot friend then i should not be  
+  able to send message
+- HOMEWORK: Show green symbol when online ?? [last seen 2
+  hours ago]
+  - HoMEWORK: Limit messages when fetching from DB
+  - Project Ideas: Tic Tac Toe game
+  - Project Idea 2: Chess Game
+  - Project Idea 3:
+  -
 
 - Signup New User
-- > > > > > > > d3802a464467817a42d6ecd6bf52b41c322473b5
-  > > > > > > > Remaining:
 
 - E2ETesting
 
